@@ -1,0 +1,15 @@
+#!/bin/bash
+
+# Prompt for the IP address
+read -p "Enter your IP address: " ip
+
+# Prompt for the input wordlist file
+read -p "Enter path to your wordlist (e.g., payloads.txt): " infile
+
+# Define output file name
+outfile="xsspayloads_final.txt"
+
+# Replace all YOURIP instances with your provided IP
+sed "s/YOURIP/$ip/g" "$infile" > "$outfile"
+
+echo "✅ Done. Updated payloads written to $outfile"
